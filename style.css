@@ -48,3 +48,26 @@ ul {
 .clearfix {
   clear: both;
 }
+
+/* navigation */
+.nav {
+  padding: 15px;
+  overflow: hidden;
+  background: #6c654c;
+  opacity: 0.4;
+}
+
+.nav-item-link {
+  float: left;
+  color: #e7e2ce;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.nav-item-link:hover {
+  background: #bab399;
+  color: #524a2a; 
+}
+
