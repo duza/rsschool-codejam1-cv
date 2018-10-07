@@ -22,8 +22,12 @@ ul {
   list-style-type: none;
 }
 
-/* header */
+a {
+  color: #524a2a;
+  text-decoration: none;
+}
 
+/* header */
 .header-text {
   float: left;
   padding: 20px;
@@ -46,8 +50,10 @@ ul {
 }
 
 /* clearfix */
-.clearfix {
+.clearfix:after {
   clear: both;
+  display: table;
+  content: "";
 }
 
 /* navigation */
@@ -73,5 +79,17 @@ ul {
   color: #524a2a; 
 }
 
-/* contacts */
+/* main section */
+.main-item {
+  padding: 15px;
+  border-bottom: 2px solid #6c654c;
+}
 
+.main-item-header {
+  padding: 10px;
+}
+
+/* contacts */
+.contacts-item {
+  float: left;
+}
