@@ -7,12 +7,44 @@
 .root {
   max-width: 1024px;
   margin: 0px auto;
+  background: #bab399;
+  opacity: 0.7;
 }
 
 body {
   font-family: "Lato", Arial, sans-serif;
+  background: #958e72;
 }
 
 ul {
   list-style-type: none;
+}
+
+/* header */
+
+.header-text {
+  float: left;
+  padding: 20px;
+}
+
+.header-text-name {
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #524a2a;  
+}
+
+.header-text-job {
+  color: #6c654c;
+  font-weight: 700;
+}
+
+.header-photo {
+  float: right;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/* clearfix */
+.clearfix {
+  clear: both;
 }
